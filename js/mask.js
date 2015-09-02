@@ -15,7 +15,7 @@ mask.functions = {
              var _btn = $("<div id='closeBtn' class='closeBtn'><div>我知道了</div></div>");
              _mask.append(_tipsImg).append(_tips).append(_btn);
              $("body").append(_mask).css("overflow","hidden");
-             $("#closeBtn").click(function(){ $("#closeBtn").click(function(){$.proxy(mask.functions.closeMask(),mask.functions);});});
+             $("#closeBtn").click(function(){$.proxy(mask.functions,mask.functions.closeMask());});
              window.localStorage.isMask = 1111;
          }
          else{$(".class_month li").removeClass("hou");}
