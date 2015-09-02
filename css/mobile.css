@@ -1,0 +1,215 @@
+html{font-size:50px}body{font-size:24px}
+@media screen and (min-width:320px){html{font-size:21.33px}body{font-size:12px}}
+@media screen and (min-width:360px){html{font-size:24px}body{font-size:12px}}
+@media screen and (min-width:375px){html{font-size:25px}body{font-size:12px}}
+@media screen and (min-width:384px){html{font-size:25.6px}body{font-size:14px}}
+@media screen and (min-width:400px){html{font-size:26.67px}body{font-size:14px}}
+@media screen and (min-width:414px){html{font-size:27.6px}body{font-size:14px}}
+@media screen and (min-width:424px){html{font-size:28.27px}body{font-size:14px}}
+@media screen and (min-width:480px){html{font-size:32px}body{font-size:15.36px}}
+@media screen and (min-width:540px){html{font-size:36px}body{font-size:17.28px}}
+@media screen and (min-width:720px){html{font-size:48px}body{font-size:23.04px}}
+@media screen and (min-width:750px){html{font-size:50px}body{font-size:24px}}
+
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,address,em,img,ol,ul,li,fieldset,form,label,legend,table,tbody,tfoot,thead,tr,th,td,i,b,s,dd,dt,dl,input{margin:0;padding:0;border:0;font-weight:inherit;
+    font-style:inherit;
+    font-family:Microsoft yahei,Arial;
+    color: #222222}
+ul,ol,li{list-style:none}
+
+a{text-decoration:none}
+button{overflow:visible;padding:0;margin:0;border:0 none;background-color:transparent}
+button::-moz-focus-inner{padding:0}
+textarea,input{background:none;padding:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-appearance:none}
+input[type=password]{-webkit-text-security:disc}
+textarea:focus,input:focus,button:focus{outline:none}
+body{word-wrap:break-word}
+
+/* 绂佺敤iPhone涓璖afari鐨勫瓧鍙疯嚜鍔ㄨ皟鏁� */
+
+html {
+    -webkit-text-size-adjust:none;
+}
+
+/* 璁剧疆HTML5鍏冪礌涓哄潡 */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block;}
+/* 璁剧疆鍥剧墖瑙嗛绛夎嚜閫傚簲璋冩暣 */
+img {
+    max-width:100%;
+}
+.video embed,.video object,.video iframe {
+    width:100%;
+    height:auto;
+}
+
+
+/*鍘绘帀鎵嬫寔璁惧鐐瑰嚮鏃跺嚭鐜扮殑閫忔槑灞�:*/
+a,button,input,div,p,dl,dd,dt,li,span{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;}
+
+/*鍘绘帀input鍦╥os涓嬬殑榛樿鏁堟灉:*/
+input{
+    resize: none;
+    -webkit-appearance:none;
+}
+
+.fn-clear:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" d";
+    clear:both;
+    height:0;
+}
+.fn-clear {
+    zoom:1;
+}
+
+.fn-left,.fn-right {
+    display:inline;
+}
+.fn-left {
+    float:left;
+}
+.fn-right {
+    display:inline;
+    float:right;
+}
+
+.clearfix:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+.clearfix {
+    zoom:1;
+}
+.mt10{
+    margin-top:10px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.hidden {
+    display: none
+}
+
+.clear {
+    clear: both
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.fl{
+    float: left;
+    display:inline;
+}
+
+.fr{
+    float: right;
+    display:inline;
+}
+.hide{ display:none;}
+
+.allbody{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index:9995;
+    position:fixed;
+ background:rgba(0,0,0,.6);
+    display: none;
+
+}
+
+
+
+/*ly 2015.2.10*/
+body{ background:#ededed }
+.class_wrap{ max-width: 640px; margin: 0 auto}
+.class_list{ padding: 0 5% 5%;overflow-x: hidden}
+.class_list li{ height: 5rem; margin-top: 7%; -webkit-transform:translate(500px,0px); }
+.class_list ul li.hou{-webkit-transform:translate(0px,0px);-moz-transform:translate(0px,0px); transition: all 1s 0s;-webkit-transition: all 1s 0s;-moz-transition: all 1s 0s;}
+.class_list li dl dd span{ position: absolute; left:2%;top:-7%;
+    background:url(../images/date.png) no-repeat;width: 120px;height: 42px; line-height: 42px;
+    text-align: center; color: #fff; font-size: .7rem}
+.class_list li dl{ height: 100%; }
+.class_list li dt{ width: 25%; background: #fdc500; font-size: .9rem;height: 100%; line-height:5rem; text-align: center }
+.class_list li dt.com{ background: #bbb}
+.class_list li dt a{ color: #fff; display: block; width: 100%;
+    height: 100%;}
+.class_list li dt a span{text-shadow: 1px 1px 5px rgba(0,0,0,0.5); color: #ffffff}
+.class_list li dd{ width: 75%; background: #fff;font-size: .5rem;height: 100%;position: relative}
+.class_list li dd strong{ position: absolute; right: 9%;top:35%; font-size: .60rem; color: #7f7f7f }
+.class_list li dd p{  position: absolute;right: 9%;top:60%;font-size: .6rem; color: #afafaf; text-align: right}
+
+
+.class_detail{padding: 5%; }
+.class_detail dl{background: #fff}
+.class_detail dl dt{ height: 2.4rem; line-height: 2.4rem; text-align: center; background: #a0a5a7; color: #fff; font-size: .8rem;}
+.class_detail dl dd{ padding: 5%}
+.class_detail dl dd p{  line-height: 2.2rem; margin:1% 0}
+.class_check dl dd p span{ font-size: .7rem; padding-left:14% }
+.info_check{ margin-top: 8%;}
+.info_check dl dd p span{ font-size: .7rem; padding-left:11% }
+.class_detail dl dd p strong{ font-size: .7rem; font-weight: normal; margin-right: 10%;max-width: 77%;}
+.class_detail dl dd p span.class_date{ background: url(../images/class_date.png)  center left no-repeat}
+.class_detail dl dd p span.class_time{ background: url(../images/class_time.png) center left no-repeat}
+.class_detail dl dd p span.class_name{ background: url(../images/class_name.png) center left  no-repeat}
+.class_detail dl dd p span.class_department{ background: url(../images/class_department.png) center left no-repeat}
+.class_detail dl dd p span.class_tel{background: url(../images/class_tel.png) center left  no-repeat}
+.class_detail .submit{height: 2.5rem;  line-height: 2.5rem; background: #fb9502; border-radius: 5px;
+    margin-top: 7%; text-align: center;box-shadow: 1px 1px 5px rgba(0,0,0,0.5);}
+.class_detail .submit a{ width: 100%; height: 100%; color: #fff; font-size: 1rem; display: block;}
+.mounse_num{ width: 6%; float: left; padding: 2%}
+
+
+
+.class_month{ width: 86%;float: left; margin-left:1%; overflow-x: hidden; padding-bottom: 5%;}
+.class_month ul li{ background: #fff; margin-top: .9rem;border-radius: 3px;-webkit-transform:translate(500px,0px);-moz-transform:translate(500px,0px);}
+.class_month ul li:nth-child(1){margin-top: .7rem;}
+.class_month ul li:nth-child(2){margin-top: 1.4rem;}
+.class_month ul li:nth-child(3){margin-top: 1.4rem;}
+.class_month ul li:nth-child(4){margin-top: 2.5rem;}
+.class_month ul li:nth-child(5){margin-top: 1.4rem;}
+.class_month ul li:nth-child(6){margin-top: 2.6rem;}
+
+.class_month ul li:nth-child(6){margin: 18% 0 0%;}
+.class_month ul li.hou{-webkit-transform:translate(0px,0px); transition: all 1s 0s;-webkit-transition: all 1s 0s;}
+.class_month ul li dl{ border-top:1px solid #bfbfbf}
+.class_month ul li dl:nth-child(1){border-top:none;}
+.class_month ul li dl{ padding: 3% 1%; margin: 0 3%;}
+.class_month ul li dl dd strong,.class_month ul li dl dd b{ display: block; font-size: .5rem; color: #757474}
+.class_month ul li dl dd b{ font-weight: bold;}
+.class_month ul li dl dd{ margin-left: 2%; line-height: .8rem;}
+.class_month ul li dl dt{ margin-right: 5%; display: block; width: 55%; margin-top: 3%;}
+.class_month ul li dl dt span{ display: block; float: right; text-align: center; border-radius: 3px;
+    background: #66a2ca; width: 1rem; height: 1rem; line-height:1rem;color: #fff;font-size: .5rem;
+    margin-left: 4%; }
+
+.class_month ul li dl dt span.com{background: #bbb}
+.class_month ul li dl dt em{ width:30%; float: right;text-align: center;border-radius: 3px;
+    background: #66a2ca;font-size: .5rem; display: block;color: #fff; padding: 3% 5%; }
+.class_month ul li dl dt em.com{ background: #bbb}
+.mask{position:fixed;z-index: 9999;width: 100%;height: 100%;background: black;opacity: .65;top:0;}
+.mask div.tipsImg{width: 100%;background-image: url(../images/tips.png);height: 7.5rem;background-position: 50% 50%;background-repeat: no-repeat;top: 8rem;background-size: 102% 63%;position: absolute;}
+.mask div.tips{width:100%;height: 1.5rem;color: #fff;font-size: .8rem;position: absolute;text-align: center;top: 15rem;}
+.closeBtn{width:100%;height: 2.5rem;position: absolute;top: 17.5rem;}
+.closeBtn div{margin:auto;width:6rem;height: 2rem;color: #fff;line-height: 2rem;border: 2px solid #fff;border-radius: 10px 10px; text-align: center;font-size: .9rem;background-color: #404040;}
+
+
+
+
