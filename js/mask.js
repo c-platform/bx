@@ -8,7 +8,7 @@ mask.functions = {
 
      creatMask : function(){
          if(!window.localStorage.isMask){
-            var that=this;
+          
              var _mask = $("<div id='maskDiv' class='mask'></div>");
              var _tipsImg = $("<div class='tipsImg' ></div>");
              var _tips = $("<div class='tips'>点击此按钮进入报名页面</div>");
